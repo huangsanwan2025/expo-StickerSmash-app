@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "StickerSmash-app",
+    "name": "sticker-smash-app",
     "slug": "StickerSmash-app",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -19,7 +19,8 @@
         "monochromeImage": "./assets/images/android-icon-monochrome.png"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.stickersMash.SplitEase"
     },
     "web": {
       "output": "static",
@@ -43,6 +44,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "ff699eaa-98ef-4f7e-a436-f57a9c7c36a9"
+      }
+    },
+    "owner": "huangliangbo"
   }
 }
