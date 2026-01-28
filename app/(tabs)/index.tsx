@@ -35,6 +35,10 @@ export default function HomeScreen() {
         <Link href="/dialog" style={styles.button}>
           Go to dialog screen
         </Link>
+        <Link href="/animation" style={styles.button}>
+          Go to animation screen
+        </Link>
+        
       </View>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step 1: Try it</ThemedText>
