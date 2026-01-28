@@ -26,9 +26,11 @@ export default function HomeScreen() {
         <Link href="/about" style={styles.button}>
           Go to About screen
         </Link>
-        {/* @ts-ignore */}
         <Link href="/img" style={styles.button}>
           Go to img screen
+        </Link>
+        <Link href="/image-pick" style={styles.button}>
+          Go to Image-Pick screen
         </Link>
       </View>
       <ThemedView style={styles.stepContainer}>
