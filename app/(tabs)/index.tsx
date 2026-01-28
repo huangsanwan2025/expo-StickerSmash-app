@@ -22,7 +22,7 @@ export default function HomeScreen() {
         <ThemedText type="title">Welcome!</ThemedText>
         <HelloWave />
       </ThemedView>
-      <View>
+      <View style={{gap: 20}}>
         <Link href="/about" style={styles.button}>
           Go to About screen
         </Link>
@@ -38,7 +38,9 @@ export default function HomeScreen() {
         <Link href="/animation" style={styles.button}>
           Go to animation screen
         </Link>
-        
+        <Link href="/screenshot" style={styles.button}>
+          Go to screenshot screen
+        </Link>
       </View>
       <ThemedView style={styles.stepContainer}>
         <ThemedText type="subtitle">Step 1: Try it</ThemedText>

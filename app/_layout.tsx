@@ -22,6 +22,7 @@ export default function RootLayout() {
         <Stack.Screen name="image-pick" options={{ title: 'Image Pick' }} />
         <Stack.Screen name="dialog" options={{ presentation: 'modal', title: 'Dialog' }} />
         <Stack.Screen name="animation" options={{  title: 'animation' }} />
+        <Stack.Screen name="screenshot" options={{  title: 'screenshot' }} />
       </Stack>
       <StatusBar style="auto" />
     </ThemeProvider>
