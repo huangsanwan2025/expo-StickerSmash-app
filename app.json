@@ -33,7 +33,6 @@
       [
         "expo-splash-screen",
         {
-          "root": "app",
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
@@ -41,6 +40,12 @@
           "dark": {
             "backgroundColor": "#000000"
           }
+        }
+      ],
+       [
+      "expo-font",
+        {
+          "fonts": ["node_modules/@expo-google-fonts/inter/900Black/Inter_900Black.ttf"]
         }
       ]
     ],

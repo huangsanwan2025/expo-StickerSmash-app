@@ -26,7 +26,7 @@ export default function HomeScreen() {
         <Link href="/about" style={styles.button}>
           Go to About screen
         </Link>
-        <Link href="/img" style={styles.button}>
+        <Link href="/img" style={[styles.button, { fontFamily: 'FiraSans-MediumItalic' }]}>
           Go to img screen
         </Link>
         <Link href="/image-pick" style={styles.button}>
